@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body,html{
+            margin:auto; padding:auto;
+            background-color: #121212;
+            position: relative;
+            text-align: center;
+            padding-bottom: 10px;
+            color: white;
+        }
+    
+        hr {
+            color: white;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #map{
+            position: relative;
+            width: 90vw; height: 90vh;
+            margin-left: auto; margin-right: auto;
+            border-radius: 7.5px;
+        }
+    
+        #legend{
+            z-index: 999;
+            margin-left: relative;
+            margin-right: 85px;
+        }
+    
+        #reset {
+            margin-left: relative;
+            margin-right: relative;
+            position: absolute;
+            top: 120px;
+            left: 100px;
+            z-index: 999;
+        }
+    
+        #main-header {
+            margin: 0; font-family: 'Comfortaa', cursive; font-weight: normal; text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); background-image: url("static/Images/IMG Header Background 1.jpg"); background-blend-mode: multiply; background-size: cover;
+            padding-top: 10px; padding-bottom: 1px; width: 100%; color: white; border-radius: 7.5px;
+        }
+    
+        #form-bkg {
+            background-color: #282828;
+            position: relative;
+            width: 30vw;
+            margin-left: auto; margin-right: auto;
+            border-radius: 7.5px;
+            margin-bottom: 5px;
+        }
+        img{
+            border-radius: 7.5px;
+        }
+        #form-input {
+            background-color: #FFFFFF;
+            border: 2px solid rgba(18, 18, 18, 0.4);
+            border-radius: 4px;
+            padding: 7px 15px;
+            height: auto;
+            text-align: center;
+            margin-bottom: 5px; margin-top: 5px; margin-right: 20px; margin-left: 10px;
+            vertical-align: -2px;
+        }
+    </style>
+       <header id="main-header" >
+        <h1>PEDAL</h1>
+        <p style="margin-bottom: 10px; margin-top: 10px">Your Bicycle Navigation Companion</p>
+        
+      </header>
+<head>
+    <title>SignInPage</title>
+</head>
+<body class="border border-5 border-info m-3 pb-3 shadow">
+
+	<table class="mx-auto w-auto" style="height: 25px;">
+	</table>
+
+<div style="text-align:center">
+	<div class="container">
+	  <div class="row justify-content-md-center">
+	    <div class="col-md-auto">
+		<div class="border border-info shadow rounded h-100">
+	       <div class="alert alert-secondary h-100" role="alert">
+		<div style="text-align:center">
+                        <p class="font-weight-bold">New Account Sign-Up</p>
+			<form action = "{{url_for('signupcheck') }}" method="post">
+				<div>
+				<input name="username_new" type="text" placeholder="Username">
+				<input name="password_new" type="password" placeholder="Password">
+				<button> Sign-up </button>
+				</div>
+			</form>
+		</div>
+		</div>
+		</div>
+  	  </div>
+	</div>
+	</div>
+
+   	 <div class="col-md-auto">
+	<div class="border border-info shadow rounded h-100">
+    	  <div class="alert alert-secondary h-100" role="alert">
+		<div style="text-align:center">
+			<p>Already have an account? Go to Sign-In Page!</p>
+			<form action = "{{url_for('signin') }}" >
+				<div>
+				<button> Sign in! </button>
+				</div>
+			</form>
+		</div>
+		</div>
+                </div>
+    		</div>
+  	</div>
+	</div>
+</body>
+</html>
