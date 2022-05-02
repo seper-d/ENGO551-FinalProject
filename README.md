@@ -33,3 +33,6 @@ The displayed routes are based on data sets and calculations that consider the a
  ![image](https://user-images.githubusercontent.com/61097726/166211826-d8c67fd0-a3c4-4b1e-98d1-ad0bcd90d97c.png)
 
 - The traffic heat map of City of Calgary is created based on acquired data from the corresponding website and is implemented as a seperate layer that the user can toggle. This feature is implemented as a seperate layer as it is too dense and crowded to be included in the basemap. With the provided informatiion, the user can readjust and replan their trips by considering the traffic density associted with their trip.
+
+![image](https://user-images.githubusercontent.com/61097726/166212368-de7725f8-3029-4bd2-80bc-ce43f6f5a0e0.png)
+
