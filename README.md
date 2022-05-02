@@ -1,4 +1,4 @@
-# ENGO551 FinalProject: PEDAL
+# ENGO551 Final Project: PEDAL
 ENGO 551 - Adv. Topics on Geospatial Technologies
 
 # Summary
